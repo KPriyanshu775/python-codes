@@ -67,4 +67,13 @@ print(matrix[:,1])
 print(matrix[0:2,0:2])
 print(matrix[1:3,1:3])
 
+arr = np.arange(1, 13)
+arr_1 = arr.reshape(3,4)
+arr_2 = arr.reshape(2, 6)
+arr_3 = arr.reshape(4, 3)
+print(arr_1)
+print()
+print(arr_2)
+print()
+print(arr_3)
 
