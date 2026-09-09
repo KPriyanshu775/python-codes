@@ -77,3 +77,13 @@ print(arr_2)
 print()
 print(arr_3)
 
+arr = np.array([
+    [10, 20, 30],
+    [40, 50, 60]
+])
+arr_1 = arr.flatten()   # basically it creates the copy of the array
+arr_2 = arr.ravel()
+print(arr_1)
+print(arr)         # see from this we can see that array didn't changed
+print(arr_2)
+print(arr)
