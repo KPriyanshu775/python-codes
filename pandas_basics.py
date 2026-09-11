@@ -1,3 +1,5 @@
 import pandas as pd
-
-print(pd.__version__)
+s = pd.Series([10,20,30,40],
+              index=['a','b','c','d'],
+              name='Marks')
+print(s)
