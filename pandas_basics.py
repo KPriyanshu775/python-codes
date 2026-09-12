@@ -34,4 +34,7 @@ import pandas as pd
 s = pd.Series([10,20,30,40,50,50])
 len(s)
 
+import pandas as pd
+s = pd.Series([10,20,30,40,50])
+s.index
 
