@@ -46,3 +46,14 @@ import pandas as pd
 s = pd.Series([10,20,30,40,50])
 print(s.index)
 print(s.values)
+
+
+import pandas as pd
+s = pd.Series(
+    [10,20,30],
+    index = ["A","B","C"]
+)
+s["C"] = 500
+print(s)
+s["D"] = 40
+print(s)
