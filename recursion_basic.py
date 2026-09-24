@@ -27,3 +27,10 @@ def nums(n):              # 2, 9, 16, 23
 
 nums(5)                   # 1, 8, 15, 22
 
+# Finding factorial of a number
+
+def nums(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * nums(n - 1)
+print(nums(5))
