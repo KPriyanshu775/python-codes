@@ -7,3 +7,11 @@ def nums(n):
     print(n)
 
 nums(5)
+
+def nums(n):   
+    if n == 0: 
+        return 
+    print(n)   
+    nums(n - 1)  
+    print(n)  
+nums(5)   
