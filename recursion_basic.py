@@ -15,3 +15,15 @@ def nums(n):
     nums(n - 1)  
     print(n)  
 nums(5)   
+
+# Working of the recursion code
+
+def nums(n):              # 2, 9, 16, 23
+    if n == 0:            # 3, 10, 17, 24
+        return            # 4, 11, 18, 25
+    print(n)              # 5, 12, 19, 26
+    nums(n - 1)           # 6, 13, 20, 27
+    print(n)              # 7, 14, 21, 28
+
+nums(5)                   # 1, 8, 15, 22
+
