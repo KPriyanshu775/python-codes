@@ -34,3 +34,13 @@ def nums(n):
         return 1
     return n * nums(n - 1)
 print(nums(5))
+
+# reverse a number
+
+#  reverse number
+def reverse(n):
+    if n == 0:
+        return
+    print(n % 10)
+    reverse(n // 10)
+reverse(12345)
